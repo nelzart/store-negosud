@@ -1,6 +1,6 @@
 export default function Header() {
     return(
-        <header>
+        <header className="">
             <nav>Partie HEADER</nav>
         </header>
     )
