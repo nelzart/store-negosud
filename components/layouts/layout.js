@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Header from "./Header"
 
 export default function layout({children}){
@@ -7,6 +8,7 @@ export default function layout({children}){
             <main>
                 {children}
             </main>
+            <Footer></Footer>
         </>
     )
 }
