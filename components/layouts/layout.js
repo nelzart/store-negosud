@@ -1,9 +1,9 @@
+import Header from "./Header"
+
 export default function layout({children}){
     return (
         <>
-            <header>
-                <nav>bonjour les enfants</nav>
-            </header>
+            <Header></Header>
             <main>
                 {children}
             </main>
