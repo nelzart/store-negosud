@@ -24,11 +24,18 @@ export default function Home() {
         <div className="bg-[#4F0F15] flex items-center p-10 w-full xl:w-1/2 h-full md:p-0 ">
           
           <div className="container md:mx-32 sm:mx-10 h-full sm:pt-20 flex flex-col items-center sm:w-full sm:h-full">
+            
             <img src='logo_negosud.svg' alt='' width={450} min-width={400} className=""/>
 
             <Description text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel nunc vitae ante dignissim hendrerit. Curabitur sem odio, interdum nec congue at, lacinia sed nulla. Pellentesque pretium massa dolor, in convallis arcu placerat ac. Sed ut gravida lorem. Aenean ac lectus ut dolor laoreet maximus et nec urna. Integer dignissim vestibulum vehicula."/> 
-
-            <Button href="Super bouton de la mort" text="Voir nos produits"/>                      
+            <Link href="/produits">
+            
+              <a>
+              <Button text="Voir nos produits"/>                      
+                
+              </a>
+                        
+            </Link>
 
           </div>
 
@@ -41,6 +48,7 @@ export default function Home() {
             alt=""
           />
         </div>
+        <div id="demo"></div>
     </div>
 
     </>
